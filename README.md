@@ -1,4 +1,4 @@
-# Calculadora-imc
+# Calculadora de índice de masa corporal
 ![Brenda Bravo](https://user-images.githubusercontent.com/95329519/149218234-a60b91c5-cdc7-4d39-b510-2b656f63c5ea.png)
 ![Herramientas-imc](https://user-images.githubusercontent.com/95329519/152419161-a59bdfc3-0fe4-465f-82ae-52aacccdd041.png)
 <div style="display:flex; ">
