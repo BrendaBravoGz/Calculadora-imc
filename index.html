@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+    <title>Document</title>
+    <script src="imc.js"></script>  
+</head>
+<body>
+<div class="contenedor">
+    <div class="apartado-calculo">
+        <h1>Calculadora IMC</h1>
+        <div class="formulario">
+        <label>Peso: </label>
+        <br>
+        <input placeholder="En kilogramos" type="number" min="0" id="peso">
+        <br>
+        <label>Altura: </label>
+        <br>
+        <input placeholder="En metros" type="number" min="0" id="altura">
+        <br>
+    </div>
+    <button onclick="imc()">Calcular</button>
+  </div>
+    <div class="apartado-respuesta">
+      <div class="respuesta-imc">
+      <label> IMC: 
+        <input readonly="readonly"type="number" id="respuesta">
+      </label>
+      </div>
+      <p class="descripcion-imc">El índice de masa corporal (IMC) es un número que se calcula con base en el peso y la estatura de la persona. </p>
+          <input id="barra-imc" type="text" readonly="readonly">
+          <div class="barra-imc-muestra">
+            <div class="peso-bajo">
+             <b>Peso bajo</b>
+              <p>menor a 18.5</p>
+            </div>
+            <div class="peso-normal">
+              <b>Peso normal</b>
+              <p>entre 18.5 y 24.9</p>
+            </div>
+            <div class="sobrepeso">
+              <b>Sobrepeso</b>
+              <p>entre 25 y 29.9</p>
+            </div>
+            <div class="obesidad">
+              <b>Obesidad</b>
+              <p>mayor a 30</p>
+            </div>
+          </div>
+      </div> 
+  </div>
+</body>
+</html>
